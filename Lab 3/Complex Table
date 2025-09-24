@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Student Grades Table</title>
+</head>
+<body>
+    <h1>Student Grades</h1>
+    <table border="1">
+        <th>
+            <tr>
+                <th>Name</th>
+                <th>Math</th>
+                <th>Science</th>
+                <th>English</th>
+            </tr>
+        </th>
+        <tb>
+            <tr>
+                <td>John Doe</td>
+                <td>90</td>
+                <td>85</td>
+                <td>88</td>
+            </tr>
+            <tr>
+                <td>Jane Smith</td>
+                <td>75</td>
+                <td>92</td>
+                <td>80</td>
+            </tr>
+            <tr>
+                <td>Bob Johnson</td>
+                <td>88</td>
+                <td>78</td>
+                <td>95</td>
+            </tr>
+        </tb>
+    </table>
+</body>
+</html>
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration Form</title>
+</head>
+<body>
+    <h1>Registration Form</h1>
+    <form action="#" method="post">
+        <label for="fullName">Full Name:</label>
+        <input type="text" id="fullName" name="fullName" required>
+        <br><br>
+
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" required>
+        <br><br>
+
+        <label for="password">Password:</label>
+        <input type="password" id="password" name="password" required>
+        <br><br>
+
+        <div class="gender-group">
+            <label>Gender:</label>
+            <label><input type="radio" name="gender" value="male" required> Male</label>
+            <label><input type="radio" name="gender" value="female" required> Female</label>
+            <label><input type="radio" name="gender" value="other" required> Other</label>
+            <br><br>
+
+        </div>
+
+        <label for="bio">Bio:</label>
+        <textarea id="bio" name="bio" placeholder="Tell us about yourself..."></textarea>
+        <br><br>
+
+        <button type="submit">Register</button>
+    </form>
+</body>
+</html>
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Blog</title>
+</head>
+<body>
+    <header>
+        <h1>My Blog</h1>
+        <nav>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section>
+            <h2>Latest Posts</h2>
+            
+            <article>
+                <h3>Introduction to Web Development</h3>
+                <p>Web development is the process of building and maintaining websites. It involves various technologies including HTML, CSS, and JavaScript.</p>
+                <p>Posted on: <time datetime="2023-10-01">October 1, 2023</time></p>
+            </article>
+            
+            <article>
+                <h3>Understanding Semantic HTML</h3>
+                <p>Semantic HTML uses elements that clearly describe their meaning in a human- and machine-readable way. This improves accessibility and SEO.</p>
+                <p>Posted on: <time datetime="2023-09-25">September 25, 2023</time></p>
+            </article>
+            
+            <article>
+                <h3>Best Practices for Responsive Design</h3>
+                <p>Responsive design ensures that web pages look good on all devices. It involves using flexible layouts, images, and CSS media queries.</p>
+                <p>Posted on: <time datetime="2023-09-20">September 20, 2023</time></p>
+            </article>
+        </section>
+    </main>
+
+    <footer>
+        <p>2025 My Blog. All rights reserved.</p>
+    </footer>
+</body>
+</html>
